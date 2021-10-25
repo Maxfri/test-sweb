@@ -1,0 +1,35 @@
+.side-bar {
+  width: 211px;
+  height: 659px;
+  background: #062436;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  overflow: auto;
+}
+
+.side-bar-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.side-bar-list {
+  list-style: none;
+}
+
+.side-bar-item {
+  margin: 16px;
+}
+
+.side-bar-link {
+  text-decoration: none;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
