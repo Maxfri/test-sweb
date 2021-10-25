@@ -2,6 +2,7 @@
   width: 211px;
   height: 659px;
   background: #062436;
+  top: 0;
   margin: 0;
   padding: 0;
   position: fixed;
@@ -20,7 +21,11 @@
 }
 
 .side-bar-item {
-  margin: 16px;
+  padding-left: 20px;
+  height: 40px;
+}
+.side-bar-item:first-child {
+  padding-top: 68px;
 }
 
 .side-bar-link {
@@ -31,5 +36,8 @@
   font-size: 14px;
   line-height: 17px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
+}
+.active {
+  background: #15526a;
 }

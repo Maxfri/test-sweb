@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #7a8185;
+  padding-top: 24px;
+}
+
+.header-notification {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+.header-exit {
+  padding-right: 22px;
+}

@@ -39,7 +39,6 @@ const Article = ({ topic }) => {
         dangerouslySetInnerHTML={createContent()}
         className="article-content"
       />
-      ;
     </details>
   );
 };

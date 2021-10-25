@@ -3,14 +3,31 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
 }
 
 .footer-left-side {
   display: flex;
   flex-direction: column;
+  margin: 0px 0px 20px 36px;
+}
+
+.footer-left-side ul,
+.footer-right-side ul {
+  list-style: none;
+}
+
+.footer-left-side a,
+.footer-right-side a {
+  text-decoration: none;
+  color: #3dbdf6;
 }
 
 .footer-right-side {
   display: flex;
   flex-direction: column;
+  margin: 0px 36px 20px 0px;
 }
